@@ -1,0 +1,22 @@
+.idea/
+## IDE specific
+build/
+# JetBrains
+*.iml
+#files
+logs/
+target/
+.DS_Store
+src/.DS_Store
+src/test/.DS_Store
+src/test/resources/selenium_standalone_binaries/
+src/test/resources/selenium_standalone_zips/
+
+# Node enerated folders and files
+/src/test/node/
+/src/test/node_modules/
+/src/test/package-lock.json
+/src/test/resources/properties/local.properties
+!/src/site/resources/Example.html
+/src/site/resources/*.html
+/src/site/site.xml
